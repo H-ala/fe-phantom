@@ -1089,9 +1089,6 @@ label {
   padding-bottom: 110px;
   padding-top: 60px;
 }
-.pt-table.desktop-768 .pt-tablecell .page-nav {
-  bottom: 0px;
-}
 
 /* =================================== */
 /*  Color Switcher
@@ -1395,7 +1392,6 @@ label {
   }
   .history-block {
     margin-bottom: 30px;
-    z-index: 999999;
   }
   .contact-form .input-field.name {
     margin-right: 0;
@@ -1450,3 +1446,25 @@ label {
   border-color: #1e2530;
 }
 /*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 767px) {
+  /* فقط مخفی کردن copyright */
+  .page-nav .copyright {
+    display: none !important;
+  }
+
+  /* ردیف کردن */
+  .page-nav .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* کنترل پایین صفحه */
+  .page-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
