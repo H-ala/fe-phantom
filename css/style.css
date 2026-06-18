@@ -1467,4 +1467,11 @@ label {
     right: 0;
     bottom: 0;
   }
+  .about-author {
+    text-align: center;
+  }
+  .history-scroller {
+    max-height: 50vh;
+    overflow-y: auto;
+  }
 }
