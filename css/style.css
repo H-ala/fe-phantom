@@ -653,6 +653,8 @@ label {
 .history-scroller {
   padding-top: 82px;
   max-height: 377px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .history-item {
@@ -1469,9 +1471,5 @@ label {
   }
   .about-author {
     text-align: center;
-  }
-  .history-scroller {
-    max-height: 50vh;
-    overflow-y: auto;
   }
 }
